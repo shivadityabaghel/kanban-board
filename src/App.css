@@ -1,0 +1,118 @@
+body {
+  background-color: #FFFFFF; /* White background */
+  margin: 0;
+  font-family: "San Francisco", Arial, sans-serif;
+  color: #000000; /* Dark black font color */
+}
+
+.App {
+  text-align: center;
+  font-family: "San Francisco", Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #FF9A8A;
+  padding: 20px;
+  color: white;
+  font-family: "New York", Arial, sans-serif;
+}
+
+/* App.css */
+/* ... existing styles */
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Adjust spacing between dropdowns */
+.controls .dropdown {
+  margin-right: 20px;
+}
+
+/* Adjust dropdown styles */
+.controls .dropdown label {
+  color: #34495e;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.controls .dropdown select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.2s ease-in-out;
+  color: #000000;
+}
+
+.controls .dropdown select:hover {
+  border-color: #4180f6;
+}
+
+.controls .dropdown select:focus {
+  outline: none;
+  border-color: #4180f6;
+  box-shadow: 0 0 5px rgba(75, 137, 255, 0.7);
+}
+ 
+
+.kanban-board {
+  display: flex;
+  justify-content: space-around;
+}
+
+.group {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  background-color: #FFFFFF; /* White background */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.group:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  background-color: #d3d3d3; /* Light gray on hover */
+}
+
+.group h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+  font-family: "New York", Arial, sans-serif;
+}
+
+.ticket-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #FFFFFF; /* White background */
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.ticket-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  background-color: #d3d3d3; /* Light gray on hover */
+}
+
+.ticket-card h3 {
+  font-size: 1.1rem;
+  margin-top: 0;
+  color: #000000;
+  font-family: "New York", Arial, sans-serif;
+}
+
+.ticket-card p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.ticket-card p:first-of-type {
+  color: #e74c3c;
+}
